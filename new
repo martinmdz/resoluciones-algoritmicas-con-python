@@ -1,0 +1,37 @@
+print ("Se contará la cantidad de letras de la siguiente frase")
+frase=str(input ("Ingrese una frase: "))
+caracteres = len(frase)
+print ("La cantidad de letras que contiene la frase es: ", caracteres)
+
+
+
+print ("Ingrese el asterisco para salir")
+while cadena != * :
+    cadena = input("Escribe un número entero: ")
+    numero = float(cadena)
+    if numero == 0:
+     print("El número ingresado es igual a cero")
+    elif numero < 0:
+     print("El número ingresado es negativo")
+    elif numero > 0:
+    print("El número ingresado es positivo")
+else:
+  print ("Se ha completado la iteracion")
+
+
+
+
+
+lista=[]
+entero=int(input("Ingrese un valor (0 para finalizar): "))
+while entero != 0:
+    lista.append(entero)
+    entero=int(input("Ingresar valor (0 para finalizar): "))
+else
+sumatoria=sum(lista)
+print("La suma de los valores de la lista es: ", sumatoria)
+
+promedio = sumatoria / len(lista)
+print("El promedio es: ",promedio)   
+
+
